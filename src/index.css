@@ -301,11 +301,11 @@ nav {
 }
 
 .links-container {
-  height: 0;
+  /* height: 0; =========  Fixed setup ========*/
   overflow: hidden;
   transition: var(--transition);
 }
 
-.show-container {
+/* .show-container =========  Fixed setup ========{
   height: 10rem;
-}
+} */
