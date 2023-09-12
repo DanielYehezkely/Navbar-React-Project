@@ -40,7 +40,16 @@ height: showLinks? `${linksRef.current.getBoundingClientRect().height}px`: '0px'
                         })}
                     </ul>
                 </div>
-                
+                <ul className='social-icons'>
+          {social.map((socialIcon) => {
+            const { id, url, icon } = socialIcon;
+            return (
+              <li key={id}>
+                <a href={url}>{icon}</a>
+              </li>
+            );
+          })}
+        </ul>
               
             </div>
         </nav>

@@ -7,7 +7,7 @@ const App = () => {
   
   return (
   <main>
-<Navbar/>
+<Navbar/>``
   </main>
   )
 };
